@@ -32,7 +32,7 @@ One of the core logic challenges was joining tables to display human-readable da
 
 ```sql
 
-initial REAME setup
+initial README setup
 SELECT books.title, authors.name, books.status 
 FROM books 
 JOIN authors ON books.author_id = authors.id;
